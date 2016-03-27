@@ -14,6 +14,7 @@
 @property (nonatomic, weak) SCData *data;
 @property (nonatomic, weak) NSString *userName;
 @property (nonatomic, weak) NSString *userEmail;
+@property (nonatomic, weak) NSString *userDeviceId;
 
 + (SoftCubeClient *)sharedClient;
 - (NSDictionary *) pageView:(NSString *) pageUrl;

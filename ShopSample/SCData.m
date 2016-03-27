@@ -115,7 +115,8 @@
                     @"s_location":@"",
                     @"referrer":@"",
                     @"user_name":self.userName ? self.userName : @"",
-                    @"user_email":self.userEmail ? self.userEmail : @""
+                    @"user_email":self.userEmail ? self.userEmail : @"",
+                    @"user_device_id":self.userDeviceId ? self.userDeviceId : @""
                     };
 }
 

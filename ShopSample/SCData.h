@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface SCData : NSObject
-    @property (nonatomic, strong) NSString *userName;
-    @property (nonatomic, strong) NSString *userEmail;
-    @property (nonatomic, strong) NSString *siteId;
+@property (nonatomic, strong) NSString *userName;
+@property (nonatomic, strong) NSString *userEmail;
+@property (nonatomic, strong) NSString *userDeviceId;
+@property (nonatomic, strong) NSString *siteId;
 
 
 -(NSDictionary *)createPurchasedItemsData:(NSString *) orderNumber GUID:(NSString *)GUID purchasedItems:(NSArray *) purchasedItems;

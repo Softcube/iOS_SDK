@@ -33,6 +33,9 @@
 -(void)setUserName:(NSString *)userName{
     [SCData sharedData].userName = userName;
 }
+-(void)setUserDeviceId:(NSString *)userDeviceId{
+    [SCData sharedData].userDeviceId = userDeviceId;
+}
 
 -(NSString *)getUserEmail{
   return  [SCData sharedData].userEmail;
@@ -41,7 +44,9 @@
 -(NSString *)getUserName{
     return  [SCData sharedData].userName;
 }
-
+-(NSString *)getUserDeviceId{
+    return  [SCData sharedData].userDeviceId;
+}
 
 
 
