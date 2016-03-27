@@ -79,12 +79,12 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb162608680766482</string>
+				<string>fb_app_id_</string>
 			</array>
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
-	<string>162608680766482</string>
+	<string>fb_app_id_</string>
 	<key>FacebookDisplayName</key>
 	<string>SoftCube Shop Sample</string>
 	<key>LSApplicationQueriesSchemes</key>
