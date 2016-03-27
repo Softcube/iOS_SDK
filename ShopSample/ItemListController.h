@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ItemListController.h
 //  ShopSample
 //
 //  Created by Kristi on 03.01.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface ItemListController : UITableViewController
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 @end
-
